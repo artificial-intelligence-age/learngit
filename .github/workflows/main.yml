@@ -23,9 +23,9 @@ jobs:
           python-version: '3.10' 
 
       - name: Run Python Script
-        run: python my_script.py
+        run: python main.py
 
       - name: Run 2 Python Scripts
         run: |
-          python my_script1.py
-          python my_script2.py
+          python main.py
+          python main.py
