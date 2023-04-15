@@ -7,7 +7,7 @@ jobs:
   job_id_1:
     runs-on: ubuntu-latest
     name: My first workflow job
-    permissions: read-all|write-all
+    # permissions: read-all|write-all
 
     steps:
       - name: Checkout action
