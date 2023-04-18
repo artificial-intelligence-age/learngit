@@ -30,7 +30,7 @@ jobs:
 
 
       - name: PyTest2
-        run: python -m pytest .
+        run: python -m pytest
 
       - name: PyTest3
         run: |
