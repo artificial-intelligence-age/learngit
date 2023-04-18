@@ -25,19 +25,9 @@ jobs:
       - name: Install PyTest
         run: pip install pytest
 
-      - name: PyTest1
-        run: pytest
-
-      - name: PyTest2
-        run: python -m pytest
-
-      - name: PyTest3
+      - name: Call PyTest
         run: |
           pytest
-
-      - name: PyTest3
-        run: |
-          python -m pytest
 
       - name: Linux Commands
         run: |
