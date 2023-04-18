@@ -10,7 +10,7 @@ on:
 jobs:
   job_id_1:
     runs-on: ubuntu-latest
-    name: My First Workflow Job
+    name: PyTest Workflow Job
     # permissions: read-all|write-all
 
     steps:
@@ -25,9 +25,8 @@ jobs:
       - name: Install PyTest
         run: pip install pytest
 
-      #- name: PyTest1
-      #  run: pytest tests
-
+      - name: PyTest1
+        run: pytest
 
       - name: PyTest2
         run: python -m pytest
@@ -35,6 +34,10 @@ jobs:
       - name: PyTest3
         run: |
           pytest
+
+      - name: PyTest3
+        run: |
+          python -m pytest
 
       - name: Linux Commands
         run: |
