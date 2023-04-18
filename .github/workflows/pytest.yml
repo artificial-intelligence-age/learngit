@@ -25,12 +25,12 @@ jobs:
       - name: Install PyTest
         run: pip install pytest
 
-      - name: PyTest1
-        run: pytest tests
+      #- name: PyTest1
+      #  run: pytest tests
 
 
       - name: PyTest2
-        run: python -m pytest
+        run: python -m pytest tests/
 
       - name: PyTest3
         run: |
