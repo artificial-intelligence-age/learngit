@@ -25,8 +25,8 @@ jobs:
       - name: Install PyTest
         run: pip install pytest
 
-      # - name: PyTest1
-      #   run: pytest
+      - name: PyTest1
+        run: pytest tests
 
 
       - name: PyTest2
