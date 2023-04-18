@@ -1,3 +1,3 @@
 def test_aaa():
-  print("Starting with PyTest and pyproject.toml")
+  print("Starting development pyproject.toml")
   assert True
