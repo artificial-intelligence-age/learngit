@@ -1,7 +1,7 @@
 # PyTest Configuration. Later, PyTest will support the [tool.pytest] table.
 [tool.pytest.ini_options]
 # minversion = "6.0"
-# addopts = "-ra -q"
+addopts = "-ra -q"
 testpaths = ["tests"]
 # pythonpath = ["."]
 
